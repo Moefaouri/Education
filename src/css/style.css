@@ -1,0 +1,774 @@
+/* main page style */
+@font-face {
+  font-family: "nunito-sans bold";
+  src: url("../font/NunitoSans-Bold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+html{
+  scroll-behavior: smooth;
+}
+h2{
+  text-align: center;
+  font-family: "nunito-sans bold";
+  font-size: 3em;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+section{
+  transition: transform 1s,opacity 1s;
+  -webkit-transition: transform 1s,opacity 1s;
+  -moz-transition: transform 1s,opacity 1s;
+  -ms-transition: transform 1s,opacity 1s;
+  -o-transition: transform 1s,opacity 1s;
+}
+.section-hidden{ opacity: 0; transform:translateY(8rem)  ; -webkit-transform:translateY(8rem)  ; -moz-transform:translateY(8rem)  ; -ms-transform:translateY(8rem)  ; -o-transform:translateY(8rem)  ;
+}
+
+/*End main page style */
+/*Header Section Style*/
+.header ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+.text-edu h2{
+  text-align: left;
+}
+.Position {
+  position: relative;
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  position: sticky;
+  top: 0; 
+ width: 100%;
+ z-index: 1;
+
+}
+.nav-sticky{
+  position: fixed;
+
+  background-color:rgba(26, 26, 26, 0.8)
+}
+
+.header {
+  background: center/cover url("../images/slider/slider.png") no-repeat, #1a1a1a;
+
+  height: 600px;
+  max-width: 100%;
+  font-family: "nunito-sans bold";
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: white;
+}
+.flix2 {
+  text-align: center;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.header h2 {
+  font-size: 2.7em;
+}
+.header h4 {
+  font-size: 0.9em;
+}
+.btn {
+  background-color: #27ad60;
+  text-decoration: none;
+  color: white;
+  padding: 0.6em 1.3em;
+  border-radius: 50px;
+  display: inline-block;
+  margin-top: 30px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.btn:hover {
+  background-color: transparent;
+  border: 1px solid #27ad60;
+}
+/*End Header section style */
+/* Education section style */
+.Education {
+  margin-top: 5rem;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.image-wraper {
+  flex: 50%;
+  padding-inline-start: 40px;
+}
+.text-edu {
+  flex: 50%;
+  font-family: "nunito-sans bold";
+}
+
+.text-edu p {
+  color: #6c757d;
+  padding: 28px 0;
+  max-width: 75%;
+  font-family: "Montserrat", sans-serif;
+}
+.text-edu ul {
+  padding-inline-start: 0;
+}
+.text-edu ul li {
+  display: flex;
+  align-items: center;
+  line-height: 60px;
+  font-weight: bold;
+}
+ul li span {
+  padding-left: 8px;
+}
+/*End Education section style */
+/* Features section style */
+.Features {
+  background-color: #f1f1f1;
+  margin-top: 5rem;
+}
+.Features h2 {
+
+  padding: 30px;
+
+}
+.Features h3 {
+  font-family: "nunito-sans bold";
+  line-height: 45px;
+}
+.card-text{
+  color: #6c757d;
+  font-family: "Montserrat", sans-serif;
+  font-size: small;
+}
+.row {
+  display: flex;
+  text-align:center;
+  padding: 40px;
+  justify-content: space-around;
+  gap: 30px;
+}
+.img-cover img{
+  width:50px ;
+  height: 60px;
+}
+.img-cover{
+  background-color:white;
+  border-radius:50% ;
+  -webkit-border-radius:50% ;
+  -moz-border-radius:50% ;
+  -ms-border-radius:50% ;
+  -o-border-radius:50% ;
+  padding: 10px;
+  margin: auto;
+  width: 85px;
+}
+
+/*End Features section style */
+/* Courses section style */
+.courses {
+  margin-top: 5rem;
+}
+.card{
+  background-color: #f1f1f1;
+  font-family: "nunito-sans bold";
+ 
+}
+.courses a{
+  padding: 0.5em 4.5em;
+
+}
+.courses h2 {
+
+  padding: 20px;
+
+}
+.courses p {
+  text-align: center;
+  font-family: "nunito-sans bold";
+  padding: 10px 0 20px 0;
+  border: none;
+  border-bottom: 1px solid black;
+
+}
+.courses span {
+  text-align: center;
+  font-family: "nunito-sans bold";
+  padding: 10px 0 20px 0;
+
+}
+.list{
+  padding: 0 25px;
+}
+.courses h3 {
+  text-align: left;
+  font-family: "nunito-sans bold";
+  padding: 20px;
+  
+
+ 
+}
+.courses h6 {
+  text-align: center;
+  font-family: "nunito-sans bold";
+  padding: 20px;
+  font-size: 1em;
+
+}
+.card h4,.card h3,.card h2{
+line-height: 40px;
+
+}
+.card h4{
+  padding: 15px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.card p{
+  font-family: "Montserrat", sans-serif;
+}
+.btn-padding{
+  padding-bottom: 27px;
+}
+.btn-padding .btn:hover{
+  color: #1a1a1a;
+}
+.card img{
+  width:"360px";
+  height:"300px";
+}
+/*End Courses Style*/
+/* Teachers section style */
+.Teachers h2 {
+
+  padding: 20px;
+
+}
+.Teachers-item{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+row-gap: 30px;
+}
+.Teachers-text{
+  display: flex;
+  gap: 40px;
+ 
+
+}
+
+.Teachers {
+  background-color: #f1f1f1;
+  margin-top: 5rem;
+  padding: 25px 0;
+}
+.Teachers-text p{
+font-size: medium;
+color: #27ad60;
+font-family: "nunito-sans bold";
+
+}
+.Teachers-text h3{
+  font-family: "nunito-sans bold";
+  color:#1a1a1a;
+}
+.teachers-head{
+  margin: auto;
+}
+
+
+/*End Teachers Style*/
+/*Program Css*/
+.programs h2{
+
+  padding: 20px 0 40px;
+
+}
+.programs .row {
+  padding-top: 0%;
+}
+.programs{
+  margin-top: 5rem;
+}
+.Program{
+  position: relative;
+}
+.overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  opacity: 0.6;
+  height: 100%;
+  width: 100%;
+  background-color: #27ad60;
+  transition: .1s ease;
+  -webkit-transition: .1s ease;
+  -moz-transition: .1s ease;
+  -ms-transition: .1s ease;
+  -o-transition: .1s ease;
+}
+.overlay:hover{
+  background-color:#1a1a1a ;
+  opacity: 0.7;
+}
+.text{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family: "nunito-sans bold";
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    height: 80px;
+}
+.text h3{
+  padding-bottom: 10px;
+  font-size: 24px;
+  width: 100%;
+  white-space: nowrap;
+}
+.text p{
+  font-size: small;
+
+}
+/*End Program Css*/
+/*NewsLetter Css*/
+.NewsLetter{
+  background-image: url(/src/images/newsletter/newsletter.png);
+  margin-top: 5rem;
+}
+.Subscribe h2{
+  color: white;
+
+}
+.NewsLetter form{
+  padding-bottom: 10px;
+  padding-top: 3px;
+  display: flex;
+}
+.NewsLetter form button{
+    background-color: #27ad60;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 0 10px 10px 0 ;
+    color: white;
+   
+    font-family: "nunito-sans bold";}
+  
+    .NewsLetter input[type="email"] {
+  width: 100%;
+  padding: 10px 12px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 10px 0 0 10px;
+  box-sizing: border-box;
+  -webkit-border-radius: 10px 0 0 10px;
+  -moz-border-radius: 10px 0 0 10px;
+  -ms-border-radius: 10px 0 0 10px;
+  -o-border-radius: 10px 0 0 10px;
+}
+.NewsLetter form button:hover{
+  background-color: #1e8e4e;
+}
+
+
+
+
+/*End NewsLetter Css*/
+/*Contact Css*/
+.Contact h2{
+
+  padding: 20px;
+
+  
+}
+.Contact{
+  margin-top: 5rem;;
+}
+.Contact .btn{
+  border: 1px solid transparent;
+  float: left;
+  margin: 10px ;
+  padding: 15px 40px ;
+ 
+}
+.Contact .btn:hover{
+  border: 1px solid #1e8e4e;
+  color: #1a1a1a;
+}
+.Contact .row div{
+  flex: 50%;
+}
+.Form input{
+  width: 100%;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 1px solid black;
+  
+
+}
+
+.Form textarea{
+  width: 100%;
+  margin-bottom: 15px;
+
+}
+.Contact textarea{
+  height: 170px;
+}
+.Contact-details ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: smaller;
+
+  
+}
+.Contact-details li i {
+color:#27ad60;
+padding: 5px;
+font-size: 1.5em;
+
+  
+}
+.Form input{
+  padding-bottom: 15px;
+  
+}
+.Form textarea{
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;}
+/*End Contact Css*/
+/*footer Css*/
+footer {
+  background-color: #1a1a1a;
+  font-family: "nunito-sans bold";
+  line-height: 35px;
+  margin-top: 5rem;
+}
+footer ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  font-family: "nunito-sans bold";
+}
+/*End Footer Style*/
+/* Responsive Style*/
+
+
+
+@media screen and (max-width:280px){
+.list h4{
+    white-space: nowrap;
+  }
+
+.courses .row{
+  padding: 20px;
+}
+.NewsLetter h2{
+  font-size: 1.1em;
+}
+  .NewsLetter .row{
+    padding: 26px;
+    gap: 20px;
+  }
+  .Teachers-text{
+    gap: 20px;
+  }
+}
+.Subscribe  h2{
+  font-size: 1.5rem
+}
+
+
+
+@media screen and (max-width:576px) {
+  
+.Position ul{
+      display: none;;
+    }
+.logo{
+  margin: auto;
+}
+.flex-container{
+  flex-direction: column;
+}
+.image-wraper {
+  flex: 100%;
+  align-self: center;
+  margin: auto;
+  padding-inline-start: 0;
+}
+.text-edu {
+  flex: 100%;
+  text-align: center;
+
+}
+.text-edu p {
+
+margin: auto;
+}  
+.text-edu ul{
+  
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.text-edu li {
+  width: 215px;
+}
+.row{
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+.Teachers-item{
+  grid-template-columns: auto;
+}
+.NewsLetter form{
+  justify-content: center;
+}
+footer nav{
+  flex-direction: column;
+}
+
+footer ul{
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+
+}
+footer nav{
+  text-align: center;
+  
+}
+.text h3{
+  font-size: 1.1em;
+}
+.Contact-details ul{
+  flex-direction: column;
+  margin-top: 15px;
+  gap: 10px;
+}
+.Contact .btn{
+width: 90%;
+padding: 10px 10px;
+}
+.programs .row{
+  padding-bottom: 30px;
+}
+h2{
+  font-size: 2em;
+
+}
+.text-edu h2{
+  text-align: center;
+  padding-top: 10px;
+}
+.header h2 {
+  font-size: 2em;
+}
+.NewsLetter form button{
+  white-space:nowrap;
+  padding:8.5px 9px;
+}
+.Contact .row{
+  padding: 0;
+}
+.Form {
+  padding: 20px;
+}
+.Contact-details{
+  padding: 20px;
+}
+.Program img{
+  width: 100%;
+}
+}
+
+
+@media (min-width:577px)and (max-width:767.98px){
+  .Position ul{
+    display: none;;
+  }
+  .text-edu {
+  
+    display: flex;
+    flex-direction: column;
+   
+    }
+    .flex-container{
+      gap :40px
+    }
+    .row .btn-padding{
+margin: auto;
+    }
+    .courses .row{
+      flex-direction: column;
+    }
+    .card p {
+      font-size: large;
+    }
+    .Teachers-item{
+      grid-template-columns: auto auto ;
+    }
+    .programs .row{
+      flex-direction: column;
+      padding-bottom: 10px;
+    }
+    .NewsLetter .row{
+      flex-direction: column;
+      padding-bottom: 10px;
+    }
+    .Contact .row{
+      flex-direction: column;
+      padding-bottom: 10px;
+    }
+    .NewsLetter form {
+      justify-content: center;
+    }
+    .Subscribe h2{
+      font-size: 30px;
+    }
+    footer nav{
+      flex-direction: column;
+    }
+    
+    footer ul{
+      flex-direction: column;
+      gap: 5px;
+      margin-top: 10px;
+    
+    }
+    footer nav{
+      text-align: center;
+      
+    }
+    .Program img{
+      width: 100%;
+    }
+    .programs .row{
+      flex-direction: column;
+      padding: 20px;
+    }
+    .programs .container{
+      display: flex;
+    }
+
+}
+
+
+
+@media (min-width:767.98px) and (max-width:1091px) {
+.overlay .text h3 {
+  font-size: 1.2em;
+}
+h2{
+  font-size: 2em;
+}
+.NewsLetter form button{
+  white-space:nowrap;
+
+}
+.NewsLetter h2{
+  font-size: 1.4em;
+}
+.Contact .row{
+  flex: 100%;
+  flex-direction: column;
+}
+.Teachers-text{
+  gap: 7px;
+}
+.courses a {
+  padding: 8px 58px;
+}
+
+.text-edu {
+  
+  display: flex;
+  flex-direction: column;
+ 
+  }
+  .flex-container{
+    gap :40px
+  }
+
+  .center{
+    margin: auto;
+  }
+  .Form .btn{
+    width: 100%;
+  }
+  .Position ul{
+    display: none;;
+  }
+
+
+}
+.up{
+  width:60px;
+  z-index: 100;
+  bottom: 20px;
+  right: 20px;
+  position: fixed;
+  background-color: #27ad60;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 20px;
+  padding: 0.8rem 1.3rem;
+  color: white;
+}
+.up:hover{
+  background-color: transparent;
+  border:1px solid #27ad60;
+  color: black;
+  cursor: pointer;
+}
+.active{
+  border-bottom: 2px solid white;
+}
+
+
+
+
+
