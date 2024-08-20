@@ -469,6 +469,11 @@ font-size: 1.5em;
 
   
 }
+
+.Contact-details li a {
+  color: inherit;
+}
+
 .Form input{
   padding-bottom: 15px;
   
