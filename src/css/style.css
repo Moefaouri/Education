@@ -441,14 +441,13 @@ font-family: "nunito-sans bold";
   margin-bottom: 15px;
   border: none;
   border-bottom: 1px solid black;
-  
-
+  outline:none;
 }
 
 .Form textarea{
   width: 100%;
   margin-bottom: 15px;
-
+  outline:none;
 }
 .Contact textarea{
   height: 170px;
