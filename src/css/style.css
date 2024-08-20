@@ -371,7 +371,7 @@ font-family: "nunito-sans bold";
 /*End Program Css*/
 /*NewsLetter Css*/
 .NewsLetter{
-  background-image: url(./src/images/newsletter/newsletter.png);
+  background-image: url('../images/newsletter/newsletter.png');
   margin-top: 5rem;
 }
 .Subscribe h2{
