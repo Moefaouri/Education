@@ -70,7 +70,7 @@ nav {
 .header {
   background: center/cover url("../images/slider/slider.png") no-repeat, #1a1a1a;
 
-  height: 600px;
+  height: 100svh;
   max-width: 100%;
   font-family: "nunito-sans bold";
 }
